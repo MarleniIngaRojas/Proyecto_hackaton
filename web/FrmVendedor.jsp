@@ -5,7 +5,7 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>SisServicios</title>
+        <title>Vendedor</title>
     <a href="img/logo.ico"></a>
     <link rel="icon" href="img/logo.ico" />
     <!-- Bootstrap CSS -->
@@ -161,30 +161,35 @@
                                                                         </div>
                                                                         <div class="modal-body">
                                                                             <div class="form-group col-sm-12 col-md-12 col-xl-12">
-                                                                                <h4 align="left">Servicio</h4>
+                                                                                <h4 align="left">Usuario</h4>
                                                                                 <input type="text" class="form-control" readonly=»readonly»/>
 
                                                                             </div>
                                                                             <div class="form-group col-sm-12 col-md-12 col-xl-12">
 
-                                                                                <h4 align="left">Dni</h4>
-                                                                                <input type="text" class="form-control"/>
+                                                                                <h4 align="left">Id servicios</h4>
+                                                                                <input type="text" class="form-control" readonly=»readonly»/>
 
                                                                             </div>
                                                                             <div class="form-group col-sm-12 col-md-12 col-xl-12">
 
-                                                                                <h4 align="left">Requerimiento</h4>
+                                                                                <h4 align="left">Descripcion</h4>
+                                                                                <input type="text" class="form-control" readonly=»readonly»/>
+
+                                                                            </div>
+                                                                            <div class="form-group col-sm-12 col-md-12 col-xl-12">
+
+                                                                                <h4 align="left">Precio</h4>
+                                                                                <input type="text" class="form-control" readonly=»readonly»/>
+
+                                                                            </div>
+
+                                                                            <div class="form-group col-sm-12 col-md-12 col-xl-12">
+
+                                                                                <h4 align="left">Precio Sugerido</h4>
                                                                                 <input type="text" class="form-control" />
 
                                                                             </div>
-                                                                            <div class="form-group col-sm-12 col-md-12 col-xl-12">
-
-                                                                                <h4 align="left">Monto</h4>
-                                                                                <input type="text" class="form-control" readonly=»readonly»/>
-
-                                                                            </div>
-
-                                                                           
                                                                         </div>
                                                                         <div class="modal-footer">
                                                                             <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
@@ -200,7 +205,7 @@
                                                         <div class="form-group col-sm-4 col-md-4 col-xl-4">
                                                             <!-- Button trigger modal -->
                                                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                                                               Galeria
+                                                                Galeria
                                                             </button>
 
                                                             <!-- Modal -->
@@ -214,18 +219,18 @@
                                                                             </button>
                                                                         </div>
                                                                         <div class="modal-body">
-                                                                           img
+                                                                            img
                                                                         </div>
                                                                         <div class="modal-footer">
-                                                                  
+
                                                                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                                                                           
+
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                </td>
+                                                    </td>
 
 
                                             </thead>
@@ -247,15 +252,7 @@
             </div>
 
     </section>
-    <!-- cta_part start -->
 
-    <!-- service_part start -->
-
-    <!-- service_part end -->
-
-    <!--::review_part start::-->
-
-    <!--::blog_part end::-->
 
     <!-- footer part start-->
     <footer class="footer-area">
@@ -271,6 +268,7 @@
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                     </div>
                 </div>
+
 
             </div>
         </div>
